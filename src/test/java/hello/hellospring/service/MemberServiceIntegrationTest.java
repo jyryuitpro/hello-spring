@@ -25,7 +25,7 @@ class MemberServiceIntegrationTest {
     MemberRepository memberRepository;
 
     @Test
-    @Commit
+//    @Commit
     void 회원가입() {
         //given (조건)
         Member member = new Member();
